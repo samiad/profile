@@ -1,3 +1,33 @@
+#sidebar {
+  position: fixed;
+  width: 90px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #68B0AB;
+}
+
+#sidebar li {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#sidebar li > a > i {
+  color: rgb(235, 235, 235);
+  bullet: none;
+  font-size: 30px;
+
+}
+
+#sidebar li > a > i:hover {
+  color: #4A4063;
+}
+
+.no-bullet {
+  list-style: none;
+}
+
 body, p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
@@ -150,4 +180,3 @@ table {
     width: 325px;
   }
 }
-
